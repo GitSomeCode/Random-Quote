@@ -1,0 +1,21 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="{% static 'quoteline/style.css' %}">
+  </head>
+  
+  <body>
+
+      <div class="Absolute-Center">
+        <a href="{% url 'quoteline:display' %}">
+          <input type="button" value="Random&#x00A;Quote">
+        </a>
+      </div>
+
+  </body>
+  
+</html>
